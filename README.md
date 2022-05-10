@@ -1,3 +1,5 @@
-Set TS version to 4.7 and module config to CommonJS.
+# CJS Branch
 
-See index.ts: Variable b is inferred correctly as Either.
+*ATTENTION: Set TS version to 4.7*
+
+Module config is set to CJS. See index.ts: Variable b is correctly inferred as `Either`
