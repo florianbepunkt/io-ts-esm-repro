@@ -2,13 +2,8 @@
   "name": "00-esm-test",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/types/index.d.ts",
-      "default": "./dist/esm/index.js"
-    }
-  },
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/esm/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +16,7 @@
     "typescript": "4.7.0-beta"
   },
   "dependencies": {
-    "fp-ts": "2.12.1",
+    "fp-ts": "2.11.0",
     "io-ts": "2.2.16"
   }
 }
